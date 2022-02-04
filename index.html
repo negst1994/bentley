@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bentley</title>
+    <link rel="stylesheet" href="./main.css">
+
+</head>
+<body>
+    
+    <header>   
+        <ul class="messages">
+
+        </ul>
+
+        <form class="form">
+            <div class="name"></div>
+            <input type="text" class="input" autocomplete="off">
+            <button class="btn">Отправить</button>
+        </form>
+        <div class="box">
+            <button class="bt goal1">Гол 1 команда</button>
+            <button class="bt goal2">Гол 2 команда</button>
+            <button class="bt redcard">Красная карточка</button>
+            <button class="bt yelowcard">Желтая карточка</button>
+        </div>
+    </header>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
